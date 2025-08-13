@@ -1,0 +1,38 @@
+:root {
+    font-family: "Alice", serif;
+}
+
+body {
+    background-image: url("assets/fundo.jpg");
+}
+
+body {
+    text-align: center; /* Centraliza horizontalmente */
+    margin: 0;
+    padding: 0;
+}
+
+#page {
+    box-sizing: border-box;
+    border-radius: 24px;
+    width: 800px;
+    padding: 20px;
+    background-color: rgb(221, 175, 191);
+
+    margin: 0 auto; /* Isso centraliza horizontalmente */
+}
+
+#ingredientes ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+#page img {
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+footer {
+    color: rgb(255, 0, 55);
+    text-align: center;
+}
